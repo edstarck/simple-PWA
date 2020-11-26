@@ -2,7 +2,7 @@
   "short_name": "userPWA",
   "name": "userPWA",
   "lang": "en",
-  "background_color": "#00aae7",
+  "background_color": "#ffffff",
   "theme_color": "#00aae7",
   "dir": "ltr",
   "display": "standalone",
