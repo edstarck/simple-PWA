@@ -12,7 +12,7 @@ workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
 // We inject manifest here using "workbox-build" in workbox-build-inject.js
-workbox.precaching.precacheAndRoute([{"revision":"0c3cf9bfca6609f66c27055a7a1ea182","url":"css/main.css"},{"revision":"1a5fcd3561c54a730b281679280bc606","url":"index.html"},{"revision":"a1c1724909801aabe823803ca84c1ee4","url":"js/app.js"},{"revision":"6e8558e3838d4eb1e716a979de6e50be","url":"manifest.json"}]);
+workbox.precaching.precacheAndRoute([{"revision":"0c3cf9bfca6609f66c27055a7a1ea182","url":"css/main.css"},{"revision":"1a5fcd3561c54a730b281679280bc606","url":"index.html"},{"revision":"a1c1724909801aabe823803ca84c1ee4","url":"js/app.js"},{"revision":"f1688e9ab4eaeb96a00f766274c3bd65","url":"manifest.json"}]);
 
 // API with cache-first strategy
 workbox.routing.registerRoute(
