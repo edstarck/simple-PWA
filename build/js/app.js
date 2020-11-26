@@ -25,4 +25,5 @@ fetch('https://jsonplaceholder.typicode.com/users')
       append(li, span);
       append(ul, li);
     });
-  });
+  })
+  .catch((error) => console.error(error));

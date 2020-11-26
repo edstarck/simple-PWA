@@ -12,6 +12,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^0.10.0",
+    "workbox-build": "^5.1.4",
+    "workbox-cli": "^5.1.4"
   }
 }
