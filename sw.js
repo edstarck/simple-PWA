@@ -12,7 +12,7 @@ workbox.core.skipWaiting();
 workbox.core.clientsClaim();
 
 // We inject manifest here using "workbox-build" in workbox-build-inject.js
-workbox.precaching.precacheAndRoute([{"revision":"0c3cf9bfca6609f66c27055a7a1ea182","url":"css/main.css"},{"revision":"46616d846b9289ade27ebac8b052ef95","url":"index.html"},{"revision":"a1c1724909801aabe823803ca84c1ee4","url":"js/app.js"}]);
+workbox.precaching.precacheAndRoute([{"revision":"0c3cf9bfca6609f66c27055a7a1ea182","url":"css/main.css"},{"revision":"2f98572d360029db063b7331d1247541","url":"index.html"},{"revision":"a1c1724909801aabe823803ca84c1ee4","url":"js/app.js"},{"revision":"ba20ade6bb670a01489364b9813e98fd","url":"manifest.json"}]);
 
 // API with cache-first strategy
 workbox.routing.registerRoute(
@@ -38,7 +38,7 @@ workbox.routing.registerRoute(
         statuses: [0, 200],
       }),
       new workbox.expiration.ExpirationPlugin({
-        maxAgeSeconds: 60 * 60 * 24 * 180,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
         maxEntries: 30,
       }),
     ],
